@@ -1,18 +1,43 @@
-<!DOCTYPE html>
+PE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Company Name</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="image-container">
-            <img src="1.svg" alt="Masked Mobster" class="gold-effect">
+    <header class="header">
+        <h1>Company Name</h1>
+        <p>Your company's tagline or brief description.</p>
+    </header>
+
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/photo1.jpg" alt="Description of photo 1">
+            <img src="images/photo2.jpg" alt="Description of photo 2">
+            <!-- Add more photos as needed -->
         </div>
-        <h1 class="gold-effect">Masked Mobster</h1>
-<h1 class="gold-effect">Coming soon...</h1>
-    </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="https://example.com/contact" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
